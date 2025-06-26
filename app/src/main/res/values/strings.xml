@@ -1,11 +1,17 @@
 <resources>
     <string name="app_name">Kotlin_App_001</string>
 
+    <!--Primer activity-->
     <string name="textViewTitle">Primer proyecto en Kotlin</string>
     <string name="editTextFirstValue_hint">Ingrese un numero</string>
     <string name="editTextSecondValue_hint">Ingrese otro numero</string>
     <string name="textViewResult">Resultado de la suma</string>
     <string name="buttonOK">Aceptar</string>
+
+    <!-- Segundo activity-->
+    <string name="editTextUser_hint">Ingrese el usuario</string>
+    <string name="editTextPassword_hint">Ingrese la clave</string>">
+    <string name="buttonAccept">Aceptar</string>
 
 
 </resources>

@@ -31,9 +31,9 @@ class MainActivity : AppCompatActivity() {
             val b = editTextSecondValue.text.toString().toInt();
             val sum = a + b;
 
-            //textViewResult.text = sum.toString();
+            textViewResult.text = sum.toString();
 
-            textViewResult.setText(sum.toString())
+            //textViewResult.setText(sum.toString())
 
 
         }
