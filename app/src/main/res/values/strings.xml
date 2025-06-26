@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kotlin_App_001</string>
+
+    <string name="textViewTitle">Primer proyecto en Kotlin</string>
+    <string name="editTextFirstValue_hint">Ingrese un numero</string>
+    <string name="editTextSecondValue_hint">Ingrese otro numero</string>
+    <string name="textViewResult">Resultado de la suma</string>
+    <string name="buttonOK">Aceptar</string>
+
+
+</resources>
