@@ -8,6 +8,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import fisei.uta.edu.ec.kotlin_app_001.databinding.ActivityMainBinding
+import fisei.uta.edu.ec.kotlin_app_001.databinding.ActivitySecondBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,11 +23,20 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        val binding = ActivityMainBinding.inflate(this.layoutInflater)
+        //val binding = ActivityMainBinding ActivitySecondBinding.inflate(this.layoutInflater)
+
+        /*
         val editTextFirstValue = findViewById<EditText>(R.id.editTextFirstValue);
         val editTextSecondValue = findViewById<EditText>(R.id.editTextSecondValue);
         val textViewResult = findViewById<TextView>(R.id.textViewResult);
         val buttonOK = findViewById<Button>(R.id.buttonOK);
+        */
 
+        binding.buttonOK.setOnClickListener {
+
+        }
+        /*
         buttonOK.setOnClickListener {
             val a = editTextFirstValue.text.toString().toInt();
             val b = editTextSecondValue.text.toString().toInt();
@@ -35,9 +46,9 @@ class MainActivity : AppCompatActivity() {
 
             //textViewResult.setText(sum.toString())
 
-
         }
 
+        */
 
 
         }
